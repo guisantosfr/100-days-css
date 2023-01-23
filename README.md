@@ -1,2 +1,5 @@
-# 100-days-css
-My solutions to 100 days css challenge
+# 100 Days CSS
+
+My solutions to [100 days CSS challenge](https://100dayscss.com)
+
+- 01 - Custom number with gradient

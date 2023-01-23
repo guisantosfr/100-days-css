@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #fff;
+  color: #333;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: linear-gradient(to right top, #43389F, #4ec6ca);
+  font-family: 'Courier Prime', monospace;
+  color: #FFF;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.number {
+  height: 100px;
+
+  position: relative;
+  left: 20px;
+  top: 30px;
+}
+
+.one {
+  width: 25px;
+  height: 100px;
+  background-color: #FFF;
+  border-radius: 3px;
+
+  position: absolute;
+  left: -20px;
+
+  z-index: 3;
+}
+
+.one::before {
+  content: '';
+  background-color: #FFF;
+  width: 25px;
+  height: 50px;
+  border-radius: 3px;
+
+  position: absolute;
+  transform: rotate(50deg);
+  left: -18px;
+  top: 0;
+}
+
+.zero {
+  width: 60px;
+  height: 60px;
+  border: 20px solid #FFF;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.first-zero {
+  position: absolute;
+  top: 2px;
+  left: -2px;
+
+  z-index: 2;
+}
+
+.second-zero {
+  position: absolute;
+  top: 2px;
+  left: 85px;
+}
+
+h1,
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 60px;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 25px;
+  margin-top: 0;
+}
